@@ -15,3 +15,13 @@ submit
 console
 quit
 exit
+run
+run last compile:run
+run
+exit
+compile
+run
+test
+submit pghoou@hotmail.com I3nEsCkAUGnDxhLa
+submit
+exit

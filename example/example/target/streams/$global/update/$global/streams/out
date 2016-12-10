@@ -1,4 +1,4 @@
-[0m[[0minfo[0m] [0mUpdating {file:/C:/Users/wseobseo/IdeaProjects/FunctionalProgrammingInScala_CourseraCourse/example/example/}root...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/}root...[0m
 [0m[[0mdebug[0m] [0m:: resolving dependencies :: progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.11.7 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.7 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@544c8bff[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4866074e[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.7[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.7 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.7] org.scala-lang#scala-library;2.11.7[0m
@@ -182,15 +182,80 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: junit#junit;4.10[0m
-[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving junit#junit;4.10 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: junit#junit;4.10 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/junit/junit/4.10/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/junit/junit/4.10/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/junit/junit/4.10/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for junit#junit;4.10[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom (4.10)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.pom(pom.original) (164ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/junit/junit/4.10/jars/junit.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/junit/junit/4.10/jars/junit.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/junit/junit/4.10/jars/junit.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
+[0m[[0mdebug[0m] [0m	found junit#junit;4.10 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT->junit#junit;4.10 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->master(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.hamcrest#hamcrest-core;1.1[0m
-[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in sbt-chain[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-core;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-core;1.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/org.hamcrest/hamcrest-core/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/org.hamcrest/hamcrest-core/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/org.hamcrest/hamcrest-core/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-core;1.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom (1.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.pom(pom.original) (163ms)[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
+[0m[[0minfo[0m] [0mResolving org.hamcrest#hamcrest-parent;1.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: org.hamcrest#hamcrest-parent;1.1 {}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/org.hamcrest/hamcrest-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-local: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/org.hamcrest/hamcrest-parent/1.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	activator-launcher-local: no ivy file found for org.hamcrest#hamcrest-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.hamcrest#hamcrest-parent;1.1[0m
+[0m[[0mdebug[0m] [0m		=> https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom (1.1)[0m
+[0m[[0mdebug[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-parent;1.1!hamcrest-parent.pom(pom.original) (207ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/org.hamcrest/hamcrest-parent/1.1/jars/hamcrest-parent.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.ivy2/local/org.hamcrest/hamcrest-core/1.1/jars/hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/activator/repository/org.hamcrest/hamcrest-core/1.1/jars/hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried /Users/wseobseo/.activator/repository/org.hamcrest/hamcrest-core/1.1/jars/hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.hamcrest#hamcrest-core;1.1 in public[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies junit#junit;4.10->org.hamcrest#hamcrest-core;1.1 [compile->compile][0m
@@ -458,25 +523,35 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.2!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.2!scala-xml_2.11.jar(bundle)[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] junit#junit;4.10!junit.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] junit#junit;4.10!junit.jar (403ms)[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.hamcrest#hamcrest-core;1.1!hamcrest-core.jar (266ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.7!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] jline#jline;2.12.1!jline.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 182ms :: artifacts dl 12ms[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in C:\Users\wseobseo\IdeaProjects\FunctionalProgrammingInScala_CourseraCourse\example\example\target\resolution-cache\reports\progfun1-example-progfun1-example_2.11-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (182ms resolve - 12ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 2123ms :: artifacts dl 683ms[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT provided produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT optional produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT compile-internal produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT runtime-internal produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT test-internal produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT plugin produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT sources produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT docs produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT pom produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for progfun1-example#progfun1-example_2.11;0.1-SNAPSHOT scala-tool produced in /Users/wseobseo/workspace/coursera/FunctionalProgrammingInScala_CourseraCourse/example/example/target/resolution-cache/reports/progfun1-example-progfun1-example_2.11-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (2123ms resolve - 683ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

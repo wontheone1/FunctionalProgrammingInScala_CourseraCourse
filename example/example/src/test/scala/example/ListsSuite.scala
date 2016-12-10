@@ -117,6 +117,10 @@ import org.scalatest.junit.JUnitRunner
     assert(sum(List(1,2,0)) === 3)
   }
 
+  test("sum with neg numbers") {
+    assert(sum(List(1, -2,0)) === -1)
+  }
+
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
